@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Dela+Gothic+One&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+  
+
+
+:root {
+  --primary-color: #A2AF9B;
+  --secondary-color: #DCCFC0;
+  --text-color: #FAF9EE;
+  --font_principal: 'Montserrat', sans-serif;
+  --font_titulo: "Krona One", sans-serif;
+  --font_size_texto: 1,5rem;
+  --font_size_titulo: 2,25rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 0px;
+ 
+ 
+}
+
+nav {
+  display: flex;
+  font-family: var(--font_principal);
+  font-size: var(--font_size_titulo);
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.nav__links {
+  color: var(--primary-color);
+  margin-right: 15px;
+  min-width: fit-content;
+}
+
+.intro__picture {
+  
+  width: 400px;
+  height: 400px;
+  padding: 5%;
+  
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  padding: 5%;
+
+}
+/* about main uses flex-start */
+.aboutme__main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--text-color);
+  padding: 5%;
+}
+
+.intro {
+  max-width: 434px;
+  min-width: 300px;
+}
+
+.intro__titulo {
+  font-family: var(--font_titulo);
+  font-size: var(--font_size_titulo);
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+
+.intro__titulo span {
+  color: var(--primary-color);
+}
+
+.intro__texto {
+  font-family: var(--font_principal);
+  font-size: var(--font_size_texto);
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 10%;
+  line-height: 36px;
+}
+
+.intro__links {
+  font-family: var(--font_principal);
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 20px;
+}
+
+.intro__links__botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: var(--primary-color) 1px solid;
+  font: var(--font_principal);
+  font-size: var(--font_size_titulo);
+  font-weight: 600;
+  width: 200px;
+  color: var(--text-color);
+  padding: 2% 0;
+
+}
+
+
+
+
+.intro__links__botao:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  
+}
+
+.intro__links__icone {
+  padding: 0 5px ;
+}
+
+
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 7px;
+}
+
+.rodape_texto {
+  font-family: var(--font_principal);
+  font-size: var(--font_size_titulo);
+  font-weight: 600;
+  padding: 1%;
+ }
+
+ /* Linha da página currículo */
+
+ .curriculo__titulo {
+  font-family: var(--font_titulo);
+  font-size: var(--font_size_titulo);
+  font-weight: 400;
+  color: var(--primary-color);
+  padding: 5% 0;
+}
+
+ .curriculo__subtitulo {
+  font-family: var(--font_titulo);
+  font-size: var(--font_size_titulo);
+  font-weight: 400;
+  color: var(--primary-color);
+  padding: 5% 0;
+}
+
+.curriculo__lista {
+  font-family: var(--font_principal);
+  font-size: var(--font_size_texto);
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 50px;
+  line-height: 150% ;
+
+  }
+
+ .line {
+  display: block;
+  border: var(--primary-color) 1px solid;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+ /* Aqui começa o CSS do ABOUT ME
+
+.about__picture {
+  
+  width: 400px;
+  height: 400px;
+  margin: 0px 100px;
+  
+}
+
+.main__about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+  gap: 50px;
+}
+  */
+
+@media (max-width: 1020px) { 
+ 
+  main {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--text-color);
+  align-items: center;
+   padding: 5%;  
+
+  }
+
+
+ .intro__picture {
+  padding: 7%;
+ }
+
+ .aboutme__main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--text-color);
+  align-items: center;
+  padding: 5%;  
+}
+
+}
+ 
+
+
+
+

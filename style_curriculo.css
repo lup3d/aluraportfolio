@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Dela+Gothic+One&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-decoration-color: none;
+  color: white;
+}
+
+body {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+header {
+  margin: 50px;
+}
+
+nav a {
+  font-family: "Montserrat", sans-serif;
+  line-height: 36px;
+  font-size: 24px;
+  color: #22D4FD;
+  font-weight: 600;
+}
+
+nav > a:first-child {
+  margin-right:15px
+}
+
+img {
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+}
+
+.line {
+  border: #22D4FD 1px solid;
+  width: 100%;
+}
+
+.intro {
+  
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+
+
+footer {
+  background-color: #22D4FD;
+  color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  padding: 7px;
+}
+
+img {
+  margin: 40px 0px;
+}
+
+h1 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 40px 0px;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px;
+}
+
+
+
+
