@@ -2,7 +2,7 @@
 
 # Olá, Bem vindo ao meu projeto de portfólio.
 
-![image](https://user-images.githubusercontent.com/77756047/211304452-220fedf0-f91b-490f-8a65-a60ce860bc5c.png)
+![]([https://raw.githubusercontent.com/lup3d/aluraportfolio/refs/heads/main/Front-end-Portfolio%20HTML%20e%20CSS.png)
 
 ## Ferramentas utilizadas:
 
